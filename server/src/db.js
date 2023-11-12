@@ -7,7 +7,7 @@ export const connect = async () => {
   try {
     mongoose.set('strictQuery', true)
     await mongoose.connect(
-      `mongodb+srv://carlosmedina06:${PASS}@carlosdb.9aqig43.mongodb.net/Playmates?retryWrites=true&w=majority`,
+      `mongodb+srv://jordanvargom:${PASS}@playmates.80t6qf5.mongodb.net/?retryWrites=true&w=majority`,
     )
     // eslint-disable-next-line no-console
     console.log('🚀 Database ready')
