@@ -8,8 +8,8 @@ const theme = extendTheme({
   },
   colors: {
     brand: {
-      primario: '#000000',
-      secundario: '#F6F1F1',
+      primario: '#F6F1F1',
+      secundario: '#000',
       terciario: '#146C94',
       cuarto: '#19A7CE',
     },

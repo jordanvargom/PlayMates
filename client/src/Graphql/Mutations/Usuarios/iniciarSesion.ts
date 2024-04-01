@@ -6,6 +6,7 @@ export const INICIAR_SESSION = gql`
       email
       id
       nombre
+      fechaNacimiento
     }
   }
 `
